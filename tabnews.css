@@ -1,0 +1,135 @@
+/* ==UserStyle==
+@name         Discord theme for Tabnews
+@version      20220523.15.24
+@namespace    userstyles.world/user/
+@description  Tabnews - Discord Theme
+@author       SamuelMayer
+@license      MIT
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.tabnews.com.br/") {
+body, .markdown-body {
+        background-color: #2f3136;
+    }
+
+    ::-webkit-scrollbar {
+        width: 12px;
+        height: 9px;
+        background-color: #2f3136;
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: #949AA7;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #5865f2;
+    }
+    ::-webkit-scrollbar-corner { 
+        background: #272C36; 
+    }
+
+    * {
+        color: #e6e6e6;
+    }
+    
+    h1, h2, h3 {
+        color: #5865f2;
+    }
+    
+    a, p, article, ul, li, .hHgTHO {
+        color: #e6e6e6;
+    }
+    
+    .hyGYav a, p, article, span, .dVxwER, .frovG, .llfTuQ {
+        color: #e6e6e6;
+    }
+    
+    a:visited {
+        color: #dcdddee0;
+        background-color: #45475a;
+    }
+    
+    .markdown-body a, .jKkIsR, .eOokvn > a:visited, .bytemd-toolbar-tab-active, .cm-s-default .cm-string {
+        color: #bababa;
+    }
+    
+    .eOokvn > a:link, .fHcGEk {
+        color: #e6e6e6;
+    }
+    
+    pre, code {
+        color: #e6e6e6 !important;
+    }
+
+    .eOokvn{
+         color: #e6e6e6 !important;
+    }
+    
+    .jbChEF {
+        color: #e6e6e6;
+        background-color: #36393f;
+    }
+    button:hover:hover {
+        background-color: #42454b !important;
+    }
+    button[aria-expanded="true"] {
+        background-color: #42454b !important;
+    }
+    
+    #header, .fvjKYN {
+        background-color: #202225;
+        border-bottom: 1px solid #cdd6f4;
+    }
+    
+    .ekiLYA:hover:not([disabled]) {
+        background-color: #2f3136;
+        border: 1px solid #cdd6f4;
+    }
+    
+    .bytemd, .bytemd-toolbar, .CodeMirror-scroll, .hGoCtd{ 
+        background-color: #2f3136;
+        color: #cdd6f4;
+    }
+    
+    .cfHMLL, .hiyjYW:hover, .jtBSrE {
+        background-color: #2f3136;
+        border: 1px solid #cdd6f4;
+    }
+    
+    .cPXPdm, .cPXPdm [data-component="text"], .ehGjaB, .ehGjaB [data-component="text"] {
+        background-color: #5865f2;
+        color: #2f3136;
+    }
+    
+    .igLpVF:hover:not([disabled]) {
+        background-color: #e6e6e6;
+    }
+    
+    .cm-s-default .cm-link, .cm-s-default .cm-header {
+     color: #5865f2;
+    }
+
+    .bytemd, .bytemd-toolbar, .CodeMirror-scroll, .hGoCtd {
+          color: #e6e6e6;
+    }
+    
+    .markdown-body .highlight pre, .markdown-body pre {
+        background-color: #afb8c133;
+    }
+    .markdown-body a {
+        color: #5865f2;
+    }
+    
+    .dJOScE {
+        background-color: #36393f;
+    }
+    .bxSaIh:hover:not([aria-disabled]) {
+        background-color: #d83c3e;
+    }
+
+    .kGukSB>svg>path {
+        color: #0969ff;
+    }
+    .iXOtpE>svg>path {
+        color: #2da44e;
+    }
+}
